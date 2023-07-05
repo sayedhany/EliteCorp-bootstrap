@@ -2,14 +2,101 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
+    />
     <title>EliteCorp-bootstrap</title>
-    <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
+    <div class="upper-bar">
+      <div class="container">
+        <div class="row">
+          <div class="col-md">
+            <i class="fa fa-phone"></i> 01201500975,
+            <i class="fa fa-envelope"></i> sayedhany975@gmail.com
+          </div>
+          <div class="col-md upper-bar_info">
+            <span>Let's work together</span><span> Get Quote</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <span>Elite</span><span>Corp</span>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#main-nav"
+          aria-controls="main-nav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="main-nav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">HOME </a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#"
+                >ABOUT <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">WORK </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">BLOG </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">CONTACT </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section class="slider">
+      <div class="carousel slide" id="main-carousel" data-ride="carousel">
+        <div class="carousel-inner">
+          <h1>
+            We’re an Independent <br />
+            Design and <span>Development</span><br />
+            Agency.
+          </h1>
+
+          <div class="overlay"></div>
+          <div class="carousel-item carousel-one active">
+            <!-- <img src="img/slider01.jpg" alt="slider 1" class="d-block w-100" /> -->
+          </div>
+          <div class="carousel-item carousel-two">
+            <!-- <img src="img/slider02.jpg" alt="slider 2" class="d-block w-100" /> -->
+          </div>
+          <div class="carousel-item carousel-three">
+            <!-- <img src="img/slider03.jpg" alt="slider 3" class="d-block w-100" /> -->
+          </div>
+        </div>
+        <ol class="carousel-indicators">
+          <li data-target="#main-carousel" data-slide-to="0" class="active">
+            0
+          </li>
+          <li data-target="#main-carousel" data-slide-to="1">1</li>
+          <li data-target="#main-carousel" data-slide-to="2">2</li>
+        </ol>
+      </div>
+    </section>
     <script src="js/jquery.js"></script>
+    <script src="js/popper.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>
