@@ -5,6 +5,9 @@ $(function () {
     upperH = $(".upper-bar").innerHeight(),
     navH = $(".navbar").innerHeight();
   console.log(winH, upperH, navH);
+  $("#main-nav > ul > li").on("click", function () {
+    $(this).addClass("active").siblings().removeClass("active");
+  });
   $(".slider , .carousel-item").height(winH - (upperH + navH));
   $(".featured-work ul li").on("click", function () {
     $(this).addClass("active").siblings().removeClass("active");
