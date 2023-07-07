@@ -285,3 +285,14 @@ section {
 .latest-post .card .btn-light {
   color: var(--secondary-color) !important;
 }
+
+.testemonial .carousel {
+  background-image: url("../img/testimonial.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.testemonial .carousel-indicators li {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+}
